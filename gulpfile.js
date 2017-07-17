@@ -16,11 +16,12 @@ elixir(function (mix) {
 
     mix.scripts([
         'vendor/jquery/dist/jquery.js',
+        'vendor/tether/dist/js/tether.js',
         'vendor/bootstrap/dist/js/bootstrap.js',
         'vendor/prism/prism.js',
         'vendor/prism/components/prism-php.js',
         'vendor/prism/plugins/line-numbers/prism-line-numbers.js',
-        'vendor/scotchPanels/dist/scotchPanels.js',
+        'vendor/scotch-panels/dist/scotchPanels.js',
         'js/Sidebar.js',
         'js/app.js'
     ], elixir.config.publicPath + '/' + elixir.config.js.outputFolder + '/scripts.js', elixir.config.assetsPath);

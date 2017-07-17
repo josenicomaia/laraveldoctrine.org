@@ -10,8 +10,10 @@
     "/resources/assets/vendor"
   ],
   "dependencies": {
-    "bootstrap": "~4.0.0",
+    "jquery": "~2",
+    "tether": "^1.4.0",
+    "bootstrap": "4.0.0-alpha",
     "prism": "~1.0.1",
-    "scotchPanels": "scotch-panels#~1.0.3"
+    "scotch-panels": "~1.0.3"
   }
 }
